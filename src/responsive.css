@@ -1,0 +1,109 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+    .client-logos { 
+        flex-direction: column;
+    }
+    .services { 
+        flex-direction: column;
+    }
+    .banner-top {
+        margin: 0px 0px 30px 0px;
+    }
+    .banner-top h1 {
+        font-size: 24px;
+    }
+    .banner-top p {
+        font-size: 14px;
+        color: #8c8b8b;
+        margin: 18px 0px;
+    }
+    .banner-card {
+        margin-bottom: 20px;
+    }
+    .counter-inner {
+        margin-bottom: 20px;
+    }
+    .about-right h1 { 
+        font-size: 22px;
+        margin: 20px 0 0 0;
+    }
+    .services .banner-card {
+        width: 100%;
+    }
+    .contact-form {
+        margin: 60px 0 0 0;
+    }
+    .ftr_left, .ftr_links {
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 575px) {
+    .client-logos {
+        /* gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px; */
+    }
+    .services {
+        flex-direction: column;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        align-items: flex-start;
+    }
+    .banner-top {
+        margin: 0px 0px 30px 0px;
+    }
+    .banner-top h1 {
+        font-size: 24px;
+    }
+    .banner-top p {
+        font-size: 14px;
+        color: #8c8b8b;
+        margin: 18px 0px;
+    }
+    .banner-card {
+        margin-bottom: 20px;
+    }
+    .counter-inner {
+        margin-bottom: 20px;
+    }
+    .about-right h1 { 
+        font-size: 22px;
+        margin: 20px 0 0 0;
+    }
+    .services .banner-card {
+        width: 100%;
+    }
+    .contact-form {
+        margin: 0px 0 0 0;
+    }
+    .ftr_left, .ftr_links {
+        margin-bottom: 20px;
+    }
+    .team_card {
+        box-shadow: 1px 2px 6px #d4d1d1;
+        margin-bottom: 20px;
+    }
+    .namefiels {
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
