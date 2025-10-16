@@ -20,7 +20,7 @@ function Team() {
     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
     
     <div className="team-content">
-    <h1 className="text-center pagetitle py-2">Team</h1>
+    <h1 className="text-center pagetitle py-2">Team --</h1>
     <p className="text-center mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     
     
