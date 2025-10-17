@@ -1,6 +1,4 @@
-import Counter from "./Counter";
-
-function Aboutus() {
+ function Aboutus() {
     return(
         <>
         <div className="about-section tb-space" id="aboutus">
@@ -34,8 +32,7 @@ function Aboutus() {
         </div>
         </div>
         </div>
-        </div>
-        <Counter/>
+        </div> 
         </>
     )
 }

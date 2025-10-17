@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer';
 import ScrollTrigger from 'react-scroll-trigger';
-import Aboutcontent from './Aboutcontent';
 
 function Counter() {
     let clients = 232;
@@ -48,7 +47,6 @@ function Counter() {
         </div>
         </div> 
         </div> 
-        <Aboutcontent/>
         </>
         
     )

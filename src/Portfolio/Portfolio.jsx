@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Menu from "./Menu";
-import Team from "../Team/Team";
+import Menu from "./Menu"; 
 
 
 function Portfolio() {
@@ -57,8 +56,7 @@ function Portfolio() {
         </div>
         </div>
         </div>
-        <Team/>
-        </>
+      </>
     )
 }
 

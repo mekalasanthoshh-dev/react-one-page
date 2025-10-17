@@ -1,9 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import client_1 from '../assets/Images/testimonials-1.jpg'
-import client_2 from '../assets/Images/testimonials-2.jpg'
-import client_3 from '../assets/Images/testimonials-3.jpg'
-import client_4 from '../assets/Images/testimonials-4.jpg'
+import user from '../assets/Images/user.png'
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -38,7 +35,7 @@ function Testimonials() {
                 spaceBetween: 20,
             },
             640: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 20,
             },
             768: {
@@ -61,7 +58,7 @@ function Testimonials() {
         <i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim.</i>
         <i className="bi bi-quote quote-icon-right"></i>
         </p>
-        <h3><img src={client_1}/></h3>
+        <h3><img src={user}/></h3>
         <h2>Jena Karlis</h2>
         <h4>Store Owners</h4>
         </div>
@@ -73,7 +70,7 @@ function Testimonials() {
         <i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim.</i>
         <i className="bi bi-quote quote-icon-right"></i>
         </p>
-        <h3><img src={client_2}/></h3>
+        <h3><img src={user}/></h3>
         <h2>Matt Brandon</h2>
         <h4>Freelancer</h4>
         </div>
@@ -85,7 +82,7 @@ function Testimonials() {
         <i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim.</i>
         <i className="bi bi-quote quote-icon-right"></i>
         </p>
-        <h3><img src={client_3}/></h3>
+        <h3><img src={user}/></h3>
         <h2>Saul Goodman</h2>
         <h4>Ceo & Founder</h4>
         </div>
@@ -97,7 +94,7 @@ function Testimonials() {
         <i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim.</i>
         <i className="bi bi-quote quote-icon-right"></i>
         </p>
-        <h3><img src={client_4}/></h3>
+        <h3><img src={user}/></h3>
         <h2>John Larson</h2>
         <h4>Entrepreneur</h4>
         </div>

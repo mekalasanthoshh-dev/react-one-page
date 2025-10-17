@@ -1,5 +1,4 @@
-import React from 'react'
-import Portfolio from '../Portfolio/Portfolio'
+import React from 'react' 
 
 function Calltoaction() {
     return (
@@ -18,8 +17,7 @@ function Calltoaction() {
         </div>
         </div>
         </div>
-        </div>
-        <Portfolio/>
+        </div> 
         </>
     )
 }

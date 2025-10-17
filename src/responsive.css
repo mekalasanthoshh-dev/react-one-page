@@ -1,7 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
-    .client-logos { 
-        flex-direction: column;
+    .client-logos {
+        display: inline-block;
+    } 
+    .client-logos li {
+        
+        display: inline-block;
+        margin: 20px 20px;
     }
     .services { 
         flex-direction: column;
@@ -28,7 +33,7 @@
         margin: 20px 0 0 0;
     }
     .services .banner-card {
-        width: 100%;
+        width: 100% !important;
     }
     .contact-form {
         margin: 60px 0 0 0;
@@ -39,58 +44,47 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 575px) {
+@media only screen and (max-width: 991px) { 
     .client-logos {
-        /* gap: 20px;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        padding: 10px; */
-    }
-    .services {
-        flex-direction: column;
-        gap: 20px;
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 10px;
-        align-items: flex-start;
+        display: inline-block;
+    } 
+    .client-logos li {
+        
+        display: inline-block;
+        margin: 20px 20px;
     }
     .banner-top {
         margin: 0px 0px 30px 0px;
     }
     .banner-top h1 {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     .banner-top p {
         font-size: 14px;
         color: #8c8b8b;
         margin: 18px 0px;
     }
-    .banner-card {
-        margin-bottom: 20px;
-    }
-    .counter-inner {
-        margin-bottom: 20px;
-    }
     .about-right h1 { 
         font-size: 22px;
         margin: 20px 0 0 0;
     }
+    .about-right {
+        margin: 20px 0px 0px 0px;
+    }
+    .banner-card {
+        margin-bottom: 20px;
+    }
     .services .banner-card {
-        width: 100%;
-    }
-    .contact-form {
-        margin: 0px 0 0 0;
-    }
-    .ftr_left, .ftr_links {
-        margin-bottom: 20px;
-    }
-    .team_card {
-        box-shadow: 1px 2px 6px #d4d1d1;
-        margin-bottom: 20px;
-    }
-    .namefiels {
-        margin-bottom: 20px;
-    }
+    width: 48%;
+    margin: 0 0 30px 0;
+    padding: 10px 10px !important;
+}
+.services { 
+    align-items: top; 
+}
+.team_card  {
+    margin-bottom: 30px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

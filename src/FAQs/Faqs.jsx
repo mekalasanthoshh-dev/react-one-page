@@ -1,6 +1,4 @@
-import React from 'react'
-import Contact from '../Contact/Contact'
-
+import React from 'react' 
 function Faqs() {
     return (
         <>
@@ -92,8 +90,7 @@ function Faqs() {
         </div> 
         </div>      
         </div>      
-        </div>
-        <Contact/>
+        </div> 
         </>
     )
 }

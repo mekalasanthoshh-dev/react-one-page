@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header(){
   return (
     <>
-    <nav className="navbar navbar-expand-sm custom-navbar fixed-top">
+    <nav className="navbar navbar-expand-lg custom-navbar fixed-top">
     <div className="container"> 
     <a className="nav-brand" href="#">One Page</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">

@@ -1,6 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
-import Calltoaction from './Calltoaction';
+import React, { useEffect, useState } from 'react' 
 import { servicedata } from '../servicedata';
 
 function Services() {
@@ -39,8 +38,7 @@ function Services() {
         </div>
         </div>
         </div>
-        </div>
-        <Calltoaction/>
+        </div> 
         
         </>
     )

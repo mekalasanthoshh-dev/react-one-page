@@ -4,9 +4,7 @@ import clientlogo2 from '../assets/Images/client-2.png';
 import clientlogo3 from '../assets/Images/client-3.png';
 import clientlogo4 from '../assets/Images/client-4.png';
 import clientlogo5 from '../assets/Images/client-5.png';
-import clientlogo6 from '../assets/Images/client-6.png';
-import Services from '../Services/Services';
-import Testimonials from './Testimonials';
+import clientlogo6 from '../assets/Images/client-6.png'; 
 
 function Clients() {
   return (
@@ -30,8 +28,7 @@ function Clients() {
         </div>
 
       </div>
-      <Testimonials/>
-      <Services/>
+   
     </>
   )
 }
